@@ -20,6 +20,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     ContentLayoutComponent
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     NgbModule,
