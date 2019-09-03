@@ -64,8 +64,8 @@ body {
   .cover {
     background: #2b2d34 url('../../../../assets/images/header-image.jpg') center;
     background-size: cover;
-    min-height: 50rem;
-    height: auto;
+    min-height: 25rem;
+    height: 25rem;
     border-radius: 0;
     width: 100%;
     color: white;
@@ -224,9 +224,10 @@ a:visited {
 }
 .nav-container .nav-row .nav-controls a {
   padding-left: 20px;
+  padding-right: 20px;
 }
 .container {
-  padding-top: 300px;
+  padding-top: 150px;
   padding-bottom: 150px;
   padding-left: 25px;
   padding-right: 25px;
