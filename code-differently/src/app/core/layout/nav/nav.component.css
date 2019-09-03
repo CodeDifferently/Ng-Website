@@ -20,17 +20,20 @@ body {
   h3 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
-    font-weight: 500; }
+    font-weight: 500; 
+  }
   
   h4 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+  }
   
   p {
     color: #696b6e;
-    font-size: .9rem; }
+    font-size: .1.5 rem; 
+  }
   
   .divider {
     display: block;
@@ -75,7 +78,8 @@ body {
     
     .cover p.lead {
       margin: 2rem auto;
-      color: rgba(255, 255, 255, 0.75); }
+      color: white; 
+    }
     
     .cover .cover-container {
       display: table;

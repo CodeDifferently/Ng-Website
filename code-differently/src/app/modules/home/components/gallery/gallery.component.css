@@ -4,7 +4,7 @@
 
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {
-    padding: 2px;
+    padding: 20px;
 }
 
 .tz-gallery .lightbox img {
