@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
-import { Observable } from 'rxjs';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -12,7 +10,7 @@ export class NavComponent {
   navItems = [
     { link: '/home', title: 'Home' },
     { link: '/about', title: 'About' },
-    { link: '/contact', title: 'Contact' }
+    { link: '/sign-up', title: 'Enroll' }
   ];
 
   constructor(  ) {}

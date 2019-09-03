@@ -1,22 +1,21 @@
-  <div class="header">
-      <div class="container">
-        <span class="d-none d-md-inline">
-          <button mat-button class="nav-button" *ngFor="let item of navItems" [routerLink]="[item.link]"
-            routerLinkActive="active">
-            {{ item.title }}
-          </button>
-        </span>
-        <div style="float: right;">
-        </div></div>
-  </div>
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" routerLink="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" routerLink="/page1">Page 1 <span class="sr-only">(current)</span></a>
+<section class="cover text-center">
+  <div class="nav-container">
+    <div class="nav-row">
+      <div class="nav-logo">
+        <a href="#">
+          Transparent to Solid Nav Row
+        </a>
+      </div>
+      <div class="nav-controls" *ngFor="let item of navItems">
+        <a routerlink="item.link">{{ item.title }}</a>
       </div>
     </div>
-  </nav> -->
+  </div>
+
+  <div class="cover-container pb-5">
+    <div class="cover-inner container">
+      <h1 class="jumbotron-heading"> <strong>Code Differently</strong></h1>
+      <p class="lead">Introduce and elevate our Youth</p>
+    </div>
+  </div>
+</section>
