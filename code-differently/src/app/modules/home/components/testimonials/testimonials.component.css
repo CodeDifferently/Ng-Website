@@ -134,7 +134,7 @@ img{
   border-width:6px; border-color:purple;
 }
 #third:checked ~ label.third {
-  border:6px solid #54885F;
+  border:6px solid rgb(84, 102, 136);
 }
 
 #first:checked ~ div.one {
