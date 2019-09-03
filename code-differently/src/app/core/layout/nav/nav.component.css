@@ -66,7 +66,9 @@ body {
     border-radius: 0;
     width: 100%;
     color: white;
-    padding-top: 1rem; }
+    padding-top: 1rem; 
+    position: relative;
+  }
     
     .cover h1 {
       font-weight: 200; }
@@ -188,6 +190,7 @@ a:visited {
   color: #ffffff;
   letter-spacing: 0.025em;
   transition: background-color 0.2s linear;
+  z-index: 3;
 }
 .nav-container.solid-nav {
   background-color: #aaa;
@@ -225,7 +228,7 @@ a:visited {
 }
 /* ---- Overlay CSS ---*/
 #overlay {
-    position: fixed;
+    position: absolute;
     width: 100%; 
     height: 100%; 
     top: 0;

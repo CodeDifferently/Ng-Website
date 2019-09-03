@@ -8,8 +8,29 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- Remove this Link when plugin is found for nav!!-->
 </head>
 <body>
   <app-root></app-root>
+
+  <!-- Remove Script when find the right plugin to manipulate DOM -->
+  <script> 
+      $(document).ready(function() {
+     
+     $(window).scroll(function() {
+       console.log('its live here');
+         var height = $('.cover').height();
+         var scrollTop = $(window).scrollTop();
+     
+         if (scrollTop >= height - 40) {
+             $('.nav-container').addClass('solid-nav');
+         } else {
+             $('.nav-container').removeClass('solid-nav');
+         }
+     
+     });
+     });
+      </script>
 </body>
 </html>
