@@ -191,9 +191,10 @@ a:visited {
   letter-spacing: 0.025em;
   transition: background-color 0.2s linear;
   z-index: 3;
+  justify-items: center
 }
 .nav-container.solid-nav {
-  background-color: #aaa;
+  background-color: rgba(103, 90, 79, 0.674);
   transition: background-color 0.2s linear;
 }
 .nav-container .nav-row {
@@ -203,12 +204,16 @@ a:visited {
   padding-right: 25px;
   padding-left: 25px;
   padding-top: 18px;
+  text-align: left !important;
 }
 .nav-container .nav-row .nav-logo {
   display: inline-block;
-  font-weight: 900;
-  position: fixed;
-  left: 40px;
+
+}
+.nav-logo-image {
+  height: 50px;
+  width: auto;
+  padding-bottom: 20px;
 }
 .nav-container .nav-row .nav-controls {
   float: right;
