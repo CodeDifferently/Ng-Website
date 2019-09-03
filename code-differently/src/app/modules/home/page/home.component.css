@@ -45,7 +45,32 @@
   width: 400px;
   height: 75%;
   top: 300px;
+  border-radius: 0px;
+  text-align: left;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 7% 5% 0% 3%;
 }
 .container {
   max-width: 1600px;
+}
+.card-text {
+  color: white;
+  font-size: 0.95em;
+  font-weight: 300;
+  text-align: left;
+  font-family: Sans-serif;
+}
+.row {
+  justify-content: center;
+  padding-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+.row p {
+  font-family: Open Sans;
+  font-size: 20px;
+  padding-top: 10px;
+}
+#services h4{
+  font-weight: 200;
 }
