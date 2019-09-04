@@ -145,7 +145,7 @@ a {
 a:hover {
   opacity: 0.5;
   cursor: pointer;
-  color: orange;
+  color: orange !important;
 }
 a:visited {
   color: inherit;
@@ -212,3 +212,4 @@ a:visited {
     background-color: rgba(0,0,0,0.2); 
     z-index: 0; 
 }
+
