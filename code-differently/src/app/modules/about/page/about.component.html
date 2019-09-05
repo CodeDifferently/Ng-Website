@@ -46,6 +46,7 @@
   </div>
 </div>
 
+<!-- ---------------------------------- MEET THE TEAM --------------------------------- -->
 <div class="bg-light py-5">
   <div class="container py-5">
     <div class="row mb-4">
@@ -55,24 +56,25 @@
     </div>
 
     <div class="row text-center">
-      <!-- Team item-->
-      <ng-container *ngFor="let member of teamMembers">
-        <div class="col-xl-3 col-sm-6 mb-5">
-          <div class="bg-white rounded shadow-sm py-5 px-4">
-            <img
-              src="../../../../../assets/images/stock-vector-male-user-account-profile-circle-flat-vector-icon-for-apps-and-websites-467503055.jpg"
-              alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-            <h5 class="mb-0">{{ member.name }}</h5><span
-              class="small text-uppercase text-muted">{{ member.title }}</span>
-            <ul class="social mb-0 list-inline mt-3">
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+    <ng-container *ngFor="let member of teamMembers">
+          <div class="col-md-4">
+            <div class="our-team">
+              <div class="team-img">
+                <img src="../../../../../assets/images/stock-vector-male-user-account-profile-circle-flat-vector-icon-for-apps-and-websites-467503055.jpg">
+                <div class="social">
+                  <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="#" class="fa fa-skype"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <h3 class="title">{{ member.name }}</h3>
+                <span class="post">{{ member.title }}</span>
+              </div>
+            </div>
           </div>
-        </div>
-      </ng-container>
-    </div>
+    </ng-container>
   </div>
-</div>

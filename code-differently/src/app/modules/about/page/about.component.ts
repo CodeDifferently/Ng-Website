@@ -11,7 +11,7 @@ export class AboutComponent {
     { name: 'Stephanie Eldridge', title: 'CEO - Founder',  imageLink: ''},
     { name: 'Tariq Hook', title: 'CEO - Founder',  imageLink: ''},
     { name: 'Leon Hunter', title: 'Lead Instructor',  imageLink: ''},
-    { name: 'Janelle Bowman', title: 'Marketing Director',  imageLink: ''},
+    { name: 'Leah Thomas', title: 'Curriculum Developer',  imageLink: ''},
     { name: 'Naz Jackson', title: 'Content Developer',  imageLink: ''},
     { name: 'Shree Realer', title: 'Communcations Specialist',  imageLink: ''}
   ];

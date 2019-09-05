@@ -8,6 +8,7 @@ import { NavComponent } from './core/layout/nav/nav.component';
 import { FooterComponent } from './core/layout/footer/footer.component';
 import { ContentLayoutComponent }  from './core/layout/content-layout/content-layout.component';
 
+import { OwlModule } from 'ngx-owl-carousel';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -24,6 +25,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    OwlModule,
     BrowserAnimationsModule
   ],
   providers: [],

@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- Remove this Link when plugin is found for nav!!-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- Remove this Link when plugin is found for nav!! -->
 </head>
 <body>
   <app-root></app-root>
@@ -24,12 +24,17 @@
      
          if (scrollTop >= height - 40) {
              $('.nav-container').addClass('solid-nav');
+             
+             $('.nav-logo-image').addClass('nav-logo-image-grey ');
+            //  $('nav-logo-image').removeClass('nav-logo-image-white')
          } else {
              $('.nav-container').removeClass('solid-nav');
+             $('.nav-logo-image').removeClass('nav-logo-image-grey');
          }
      
      });
      });
       </script>
+    
 </body>
 </html>
