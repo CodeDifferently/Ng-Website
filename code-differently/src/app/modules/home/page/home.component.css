@@ -7,10 +7,7 @@
 #content {
   margin-top: 1rem;
 }
-.logo-small {
-  color: #f4511e;
-  font-size: 50px;
-}
+
 .logo {
   color: #f4511e;
   font-size: 200px;
@@ -26,7 +23,7 @@
   margin-bottom: 10px;
 }
 .mission-container {
-  background: url('../../../../assets/images/stockphoto.jpg');
+  background: url('../../../../assets/images/programs-tall.png');
   background-size: cover;
   width: 100%;
   position: relative;
@@ -51,6 +48,8 @@
   padding: 7% 5% 0% 3%;
 }
 .container {
+  padding-right: 0px;
+  padding-left: 0px;  
   max-width: 1600px;
 }
 .card-text {
@@ -64,13 +63,39 @@
   justify-content: center;
   padding-bottom: 20px;
   font-family: 'Oswald', sans-serif;
-  
+  position: relative;
+  bottom: 110px;
+  padding: 0px 150px;
 }
 .row p {
   font-family: Open Sans;
   font-size: 20px;
-  padding-top: 10px;
 }
 #services h4{
   font-weight: 200;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.contact-box {
+  background: url('../../../../assets/images/programs2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }

@@ -10,7 +10,8 @@ export class NavComponent {
   navItems = [
     { link: '/home', title: 'Home' },
     { link: '/about', title: 'About' },
-    { link: '/enroll', title: 'Enroll' }
+    { link: '/programs', title: 'Programs' },
+    { link: '/contact', title: 'Contact Us'}
   ];
 
   constructor(  ) {}
