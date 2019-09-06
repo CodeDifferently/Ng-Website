@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="thumbnail-container">
+      <p>Open the youtube </p>
+      <button class="btn-dark" id="playme" onclick="revealVideo('video','youtube')">Play Video</button>
+  
+  </div>
+  
+  <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
+    <div class="lightbox-container">  
+      <div class="lightbox-content">
+        
+        <button onclick="hideVideo('video','youtube')" class="lightbox-close">
+          Close | ✕
+        </button>
+        <div class="video-container">
+          <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/watch?v=hObHF87yNJc" frameborder="0" allowfullscreen></iframe>
+          <!-- <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/hObHF87yNJc" frameborder="0" allowfullscreen></iframe> -->
+        </div>      
+        
+      </div>
+    </div>
+  </div>
+</div>
