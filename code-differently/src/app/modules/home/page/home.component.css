@@ -23,7 +23,7 @@
   margin-bottom: 10px;
 }
 .mission-container {
-  background: url('../../../../assets/images/programs-tall.png');
+  background: url('../../../../assets/images/headersplash2.jpg');
   background-size: cover;
   width: 100%;
   position: relative;
@@ -50,7 +50,7 @@
 .container {
   padding-right: 0px;
   padding-left: 0px;  
-  max-width: 1600px;
+  max-width: 100%;
 }
 .card-text {
   color: white;
