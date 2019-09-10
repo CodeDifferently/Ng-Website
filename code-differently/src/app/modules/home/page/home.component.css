@@ -65,7 +65,6 @@
   font-family: 'Oswald', sans-serif;
   position: relative;
   bottom: 110px;
-  padding: 0px 150px;
 }
 .row p {
   font-family: Open Sans;
@@ -76,10 +75,13 @@
 }
 
 .column {
+  color: white;
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+  box-shadow: 13px 9px 7px black;
+  margin: 0px 5px;
 }
 
 /* Clear floats after the columns */
