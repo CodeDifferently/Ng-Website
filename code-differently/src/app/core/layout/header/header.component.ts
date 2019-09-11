@@ -3,6 +3,7 @@ import { Router, NavigationEnd } from '@angular/router';
 
 let url: string;
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -14,7 +15,10 @@ export class HeaderComponent {
     this.router.events.subscribe((ev) => {
       if(ev instanceof NavigationEnd){
          url = this.router.url;
-         console.log(url);
+        //  document.getElementById('cover').style.background = " #2b2d34 url('../../../../assets/images/"+url+".jpg') center";
+        document.getElementById('slogan').innerHTML = url; 
+        
+        console.log(url);
       }
     })
 
