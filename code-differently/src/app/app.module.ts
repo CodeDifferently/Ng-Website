@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './core/layout/nav/nav.component';
 import { FooterComponent } from './core/layout/footer/footer.component';
 import { ContentLayoutComponent }  from './core/layout/content-layout/content-layout.component';
+import { HeaderComponent } from './core/layout/header/header.component';
 
 import { NgxPayPalModule } from 'ngx-paypal';
 
@@ -18,7 +19,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     AppComponent,
     FooterComponent,
     NavComponent,
-    ContentLayoutComponent
+    ContentLayoutComponent,
+    HeaderComponent 
   ],
   imports: [
     
