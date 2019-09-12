@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Audiowide|Teko|Ubuntu:500i|Yanone+Kaffeesatz&display=swap");
 html, body { height: 100%; }
 body { 

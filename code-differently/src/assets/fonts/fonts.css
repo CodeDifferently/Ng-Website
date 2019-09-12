@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: YanoneKaffeesatz;
+    src: url("./YanoneKaffeesatz-Regular.ttf") format("opentype")
+}
+
+@font-face {
+    font-family: FjallaOne;
+    src: url("./FjallaOne-Regular.ttf") format("opentype")
+}
+
+@font-face {
+    font-family: Teko;
+    src: url("./Teko-Regular.ttf") format("opentype")
+}
