@@ -62,8 +62,8 @@ body {
   .cover {
     background: #2b2d34 url('../../../../assets/images/headersplash1.jpg') center;
     background-size: cover;
-    min-height: 40rem;
-    height: 40rem;
+    height: 33rem;
+    min-height: 30rem;
     border-radius: 0;
     width: 100%;
     color: white;
@@ -92,7 +92,7 @@ body {
     .cover .cover-container {
       display: table;
       height: 100%;
-      min-height: 39rem;
+      min-height: 32rem;
       margin: 0 auto; 
       position: relative;
       width: 100%;

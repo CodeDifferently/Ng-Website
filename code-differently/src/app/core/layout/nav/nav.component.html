@@ -3,14 +3,14 @@
   <div class="nav-container">
     <div class="nav-row">
       <div class="nav-logo">
-        <a href="/home">
+        <a routerLink="/home">
           
           <div class="nav-logo-image nav-logo-image-white" alt="CodeDifferently">
           </div>
         </a>
       </div>
       <div class="nav-controls">
-        <a *ngFor="let item of navItems" href="{{item.link}}"> {{ item.title }} </a>
+        <a *ngFor="let item of navItems" routerLink="{{item.link}}"> {{ item.title }} </a>
       </div>
     </div>
   </div>
