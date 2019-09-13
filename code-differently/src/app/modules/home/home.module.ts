@@ -11,7 +11,7 @@ import { ContactBoxComponent } from '../../shared/components/contact-box/contact
         HomeComponent,
         GalleryComponent,
         TestimonialsComponent,
-        ContactBoxComponent
+        ContactBoxComponent,
     ],
     imports: [
         

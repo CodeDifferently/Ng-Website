@@ -1,0 +1,66 @@
+/* Swoosh!! */
+#slide {
+	position: absolute;
+	z-index: 1;
+	left: -600px;
+	width: 600px;
+	height: 150px;
+	top: 150px;
+	border-radius: 5px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 2s;
+	animation: slide 0.9s forwards;
+	animation-delay: 0.5s;
+	background-color: rgba(0,0,0,0.4);
+  }
+  @-webkit-keyframes slide {
+	100% { left: 0; }
+  }
+  
+  @keyframes slide {
+	100% { left: 0; }
+  }
+  p {
+	  font-size: 40px;
+	  font-family: 'Fjalla One';
+  }
+  .btn {
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			appearance: none;
+	background-color: transparent;
+	border: 2px solid #e74c3c;
+	border-radius: 0.6em;
+	color: #e74c3c;
+	cursor: pointer;
+	display: flex;
+	align-self: center;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 20px;
+	padding: 1.2em 2.8em;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+	color: #fff;
+	outline: 0;
+  }
+  .fourth {
+	border-color: #ff8400;
+	color: #fff;
+	background-image: linear-gradient(45deg, #ff8400 50%, transparent 50%);
+	background-position: 100%;
+	background-size: 400%;
+	transition: background 300ms ease-in-out;
+	left: 200px;
+    position: relative;
+  }
+  .fourth:hover {
+	background-position: 0;
+  }
