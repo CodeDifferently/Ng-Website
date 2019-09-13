@@ -8,8 +8,8 @@ import { Component, } from '@angular/core';
 export class AboutComponent {
 
   teamMembers = [
-    { name: 'Stephanie Eldridge', title: 'CEO - Founder',  imageLink: ''},
-    { name: 'Tariq Hook', title: 'CEO - Founder',  imageLink: ''},
+    // { name: 'Stephanie Eldridge', title: 'CEO - Founder',  imageLink: ''},
+    // { name: 'Tariq Hook', title: 'CEO - Founder',  imageLink: ''},
     { name: 'Leon Hunter', title: 'Lead Instructor',  imageLink: ''},
     { name: 'Leah Thomas', title: 'Curriculum Developer',  imageLink: ''},
     { name: 'Naz Jackson', title: 'Content Developer',  imageLink: ''},
