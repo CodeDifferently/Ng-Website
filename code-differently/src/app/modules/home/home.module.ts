@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { HomeComponent } from './page/home.component';
-import { HomeRoutingModule } from './home.routing';
+import { HomeRoutingModule } from './home.routing.module';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactBoxComponent } from '../../shared/components/contact-box/contact-box.component';

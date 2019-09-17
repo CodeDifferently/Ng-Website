@@ -9,7 +9,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 export class HeaderCarouselComponent {
   showNavigationArrows = true;
   showNavigationIndicators = false;
-  images = [{link: '../../../assets/images/Hero-1.jpg'}, {link: '../../../assets/images/Hero-4.jpg'}, {link: '../../../assets/images/Hero-3.jpg'}];
+  images = [{link: '../../../assets/images/Hero-4.jpg'}, {link: '../../../assets/images/Hero-1.jpg'}, {link: '../../../assets/images/Hero-3.jpg'}];
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree

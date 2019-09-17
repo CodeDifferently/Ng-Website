@@ -110,3 +110,30 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .card-body {
   padding: 0px;
 }
+
+@media only screen and (max-width: 760px) {
+  .row {
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: 'FjallaOne';
+    position: relative;
+    bottom: 110px;
+    display: block;
+    left: 12px;
+    }
+  .column {
+    color: white; 
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 9px 9px 3px rgba(0,0,0, .2);
+    margin: 0px 7px 27px;
+    background-color: #ff8400;
+    float: none;
+    width: 90%;
+  }
+  .row p {
+    font-size: 5.5vw;
+  }
+  
+}
