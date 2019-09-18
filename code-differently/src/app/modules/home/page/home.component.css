@@ -62,14 +62,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   font-weight: 300;
   text-align: left;
 }
-.row {
+.programs-row {
   justify-content: center;
   padding-bottom: 20px;
   font-family: 'FjallaOne';
   position: relative;
   bottom: 110px;
 }
-.row p {
+.programs-row p {
   font-family: 'YanoneKaffeesatz';
   font-size: 1.5vw;
 }
@@ -110,9 +110,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .card-body {
   padding: 0px;
 }
+.stats-column {
+  padding: 0px 20px;
+  width: 25%;
+}
+.statistics-icon {
+  width: auto;
+  height: 180px;
+  padding-bottom: 20px;
 
+}
 @media only screen and (max-width: 760px) {
-  .row {
+  .programs-row {
     justify-content: center;
     padding-bottom: 20px;
     font-family: 'FjallaOne';
@@ -132,8 +141,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     float: none;
     width: 90%;
   }
-  .row p {
+  .programs-row p {
     font-size: 5.5vw;
   }
-  
+  .row {
+    display: block;
+  }
+  .stats-column {
+    display: inline;
+  }
 }
