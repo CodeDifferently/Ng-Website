@@ -35,17 +35,19 @@ body {
 -------------------------------------------------- */
 footer {
   padding-top: 30px;
-  background-color: #292c2f;
-  color: #bbb;
+  background-color: #818285;
+  /* color: #ff8400; */
+  color: white
 }
 
 footer a {
-  color: #999;
   text-decoration:none;
+  /* color: #ff8400; */
+  color: white
 }
 
 footer a:hover, footer a:focus {
-  color: #aaa;
+  color: #ff8400;
   text-decoration:none;
   border-bottom:1px dotted #999;
 }
@@ -57,4 +59,8 @@ footer .form-control {
     resize: none;
     color: #d1d2d2;
     padding: 0.7em 1em;
+}
+
+.contact-details {
+  text-align: right;
 }
