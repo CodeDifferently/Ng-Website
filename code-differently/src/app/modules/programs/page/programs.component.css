@@ -1,5 +1,7 @@
 .five-phase-container {
-    background: url('../../../../assets/images/programs.png');
+    
+    /* background: url('../../../../assets/images/programs.png');
+     */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;

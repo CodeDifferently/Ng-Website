@@ -9,9 +9,9 @@ export class NavComponent {
 
   navItems = [
     { link: '/home', title: 'Home' },
-    { link: '/about', title: 'About' },
-    { link: '/programs', title: 'Programs' },
-    { link: '/contact', title: 'Contact Us'}
+    { link: '/home', title: 'About' },
+    { link: '/home', title: 'Programs' },
+    { link: '/home', title: 'Contact Us'}
   ];
 
   constructor(  ) {}

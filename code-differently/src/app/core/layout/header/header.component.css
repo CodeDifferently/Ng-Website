@@ -60,7 +60,7 @@ li.nav-item .btn-white {
   color: #46484a; }
 
 #cover-container{
-  background: #2b2d34 url('../../../../assets/images/home_banner.png') center;
+  /* background: #2b2d34 url('../../../../assets/images/home_banner.png') center; */
   background-size: cover;
   min-height: 40rem;
   height: 40rem;

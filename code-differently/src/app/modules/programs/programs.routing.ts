@@ -11,18 +11,18 @@ export const routes: Routes = [
     path: '',
     component: ProgramsComponent
   },
-  // {
-  //   path: 'pipeline',
-  //   component: PipelineComponent
-  // },
-  // {
-  //   path: 'platform',
-  //   component: PlatformComponent
-  // },
-  // {
-  //   path: 'professional',
-  //   component: ProfessionalComponent
-  // }
+  {
+    path: 'pipeline',
+    component: PipelineComponent
+  },
+  {
+    path: 'platform',
+    component: PlatformComponent
+  },
+  {
+    path: 'professional',
+    component: ProfessionalComponent
+  }
 ];
 
 @NgModule({

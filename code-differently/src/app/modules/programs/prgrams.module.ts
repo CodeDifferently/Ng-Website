@@ -5,15 +5,13 @@ import { ProgramsRoutingModule } from './programs.routing';
 import { PipelineComponent } from './page/pipeline/pipeline.component';
 import { PlatformComponent } from './page/platform/platform.component';
 import { ProfessionalComponent } from './page/professional/professional.component';
-import { PayPalComponent } from '../../shared/components/paypal/paypal.component';
 
 @NgModule({
     declarations: [
         ProgramsComponent,
         PipelineComponent,
         PlatformComponent,
-        ProfessionalComponent,
-        PayPalComponent
+        ProfessionalComponent
     ],
     imports: [
         ProgramsRoutingModule

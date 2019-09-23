@@ -20,8 +20,8 @@ export class HeaderComponent {
       if(ev instanceof NavigationEnd){
         url = this.router.url;
         bg_copy = this.checkRoute(url);
-        document.getElementById('cover-container').style.background = " #2b2d34 url('../../../../assets/images"+url+"_banner.png') center";
-        document.getElementById('slogan').innerHTML = bg_copy; 
+        // document.getElementById('cover-container').style.background = " #2b2d34 url('../../../../assets/images"+url+"_banner.png') center";
+        // document.getElementById('slogan').innerHTML = bg_copy; 
 
       }
     })
